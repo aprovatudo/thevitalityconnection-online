@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Capital Brasil Cosmeticos</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI', Arial, sans-serif;background:#f5f6fa;color:#444;line-height:1.6}
+header{background:#ffffff;border-bottom:3px solid #3949ab;padding:0 40px;display:flex;align-items:center;justify-content:space-between;height:60px;position:sticky;top:0;z-index:10}
+header h1{font-family:'Segoe UI', 'Helvetica Neue', sans-serif;font-size:1rem;font-weight:900;color:#1a1a2e;letter-spacing:.02em}
+nav ul{list-style:none;display:flex;gap:32px}
+nav a{color:#3949ab;text-decoration:none;font-size:.85rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase}
+nav a:hover{color:#283593}
+.hero{display:grid;grid-template-columns:1fr 380px;min-height:480px}
+.hero-left{background:#f5f6fa;padding:64px 40px 64px 40px;display:flex;flex-direction:column;justify-content:center}
+.hero-eyebrow{font-size:.75rem;letter-spacing:.18em;color:#3949ab;text-transform:uppercase;font-weight:700;margin-bottom:16px}
+.hero-left h2{font-family:'Segoe UI', 'Helvetica Neue', sans-serif;font-size:2.6rem;font-weight:900;color:#1a1a2e;line-height:1.15;margin-bottom:20px}
+.hero-left h2 em{color:#3949ab;font-style:normal}
+.hero-left p{color:#444;font-size:1rem;max-width:480px;margin-bottom:32px;line-height:1.75}
+.hero-cta{display:inline-block;background:#3949ab;color:white;padding:14px 32px;text-decoration:none;font-weight:700;font-size:.9rem;letter-spacing:.04em;text-transform:uppercase;transition:background .2s}
+.hero-cta:hover{background:#283593}
+.hero-right{background:#3949ab;color:#ffffff;padding:48px 36px;display:flex;flex-direction:column;justify-content:center;gap:24px}
+.hero-right h3{font-family:'Segoe UI', 'Helvetica Neue', sans-serif;font-size:1rem;font-weight:700;opacity:.7;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
+.info-item{border-bottom:1px solid rgba(255,255,255,.15);padding-bottom:16px}
+.info-item:last-child{border-bottom:none;padding-bottom:0}
+.info-label{font-size:.75rem;opacity:.65;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+.info-value{font-size:1rem;font-weight:600}
+.section{max-width:960px;margin:72px auto;padding:0 40px}
+.section-label{font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;color:#3949ab;font-weight:700;margin-bottom:12px}
+.section h2{font-family:'Segoe UI', 'Helvetica Neue', sans-serif;font-size:1.7rem;font-weight:900;color:#1a1a2e;margin-bottom:40px}
+.srv-row{display:flex;gap:24px;align-items:flex-start;padding:24px 0;border-bottom:1px solid #e8eaf6}
+.srv-row:last-child{border-bottom:none}
+.srv-num{font-family:'Segoe UI', 'Helvetica Neue', sans-serif;font-size:2rem;font-weight:900;color:#3949ab;opacity:.3;min-width:56px;line-height:1}
+.srv-body h4{font-family:'Segoe UI', 'Helvetica Neue', sans-serif;font-size:1rem;font-weight:700;color:#1a1a2e;margin-bottom:6px}
+.srv-body p{font-size:.9rem;color:#444;line-height:1.65}
+.sobre-grid{display:grid;grid-template-columns:1fr 320px;gap:48px;align-items:start}
+.sobre-text p{color:#444;line-height:1.85;margin-bottom:16px}
+.stats-panel{background:#e8eaf6;border-left:4px solid #3949ab;padding:28px}
+.stats-panel p{font-size:.88rem;color:#444;margin-bottom:10px;line-height:1.5}
+.stats-panel p strong{color:#283593;display:block;font-size:.75rem;text-transform:uppercase;letter-spacing:.06em}
+.contato-box{background:#e8eaf6;border-left:4px solid #3949ab;padding:32px;max-width:560px}
+.contato-box p{font-size:.95rem;color:#444;margin-bottom:12px;line-height:1.6}
+.contato-box a{color:#3949ab;text-decoration:none;font-weight:600}
+footer{background:#1a1a2e;color:#6677aa;padding:28px 40px;display:flex;justify-content:space-between;align-items:center;font-size:.8rem;margin-top:80px}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.hero-right{display:none}.sobre-grid{grid-template-columns:1fr}nav{display:none}}
+</style></head><body>
+<header><h1>Capital Brasil Cosmeticos</h1><nav><ul><li><a href="#servicos">Serviços</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#contato">Contato</a></li></ul></nav></header>
+<div id="hero" class="hero">
+  <div class="hero-left">
+    <p class="hero-eyebrow">Cosméticos · Perfumaria · Bem-estar</p>
+    <h2>Beleza e <em>cuidado pessoal</em> de <em>qualidade</em> em Brasília</h2>
+    <p>A Capital Brasil Cosméticos é sua loja de referência em cosméticos, perfumaria e produtos de higiene pessoal no coração do Distrito Federal. Oferecemos marcas selecionadas e produtos premium para realçar sua beleza natural.</p>
+    <a href="#contato" class="hero-cta">Falar com especialista</a>
+  </div>
+  <div class="hero-right">
+    <h3>Capital Brasil Cosmeticos</h3>
+    <div class="info-item"><div class="info-label">Fundação</div><div class="info-value">2026</div></div>
+    <div class="info-item"><div class="info-label">Localização</div><div class="info-value">Brasilia — DF</div></div>
+    
+    <div class="info-item"><div class="info-label">CNPJ</div><div class="info-value">66.461.311/0001-66</div></div>
+  </div>
+</div>
+<div id="servicos" class="section"><p class="section-label">Como atuamos</p><h2>Nossas áreas de expertise</h2><div class="srv-row"><div class="srv-num">01</div><div class="srv-body"><h4>Cosméticos e Maquiagem</h4><p>Amplo catálogo de produtos de maquiagem e cosméticos das melhores marcas para todos os tipos de pele.</p></div></div><div class="srv-row"><div class="srv-num">02</div><div class="srv-body"><h4>Perfumaria Premium</h4><p>Seleção exclusiva de fragrâncias nacionais e importadas para homens, mulheres e unissex.</p></div></div><div class="srv-row"><div class="srv-num">03</div><div class="srv-body"><h4>Higiene Pessoal</h4><p>Produtos de higiene e cuidados corporais que garantem saúde, limpeza e bem-estar diário.</p></div></div><div class="srv-row"><div class="srv-num">04</div><div class="srv-body"><h4>Consultoria de Beleza</h4><p>Atendimento especializado com recomendações personalizadas para seu tipo de pele e necessidades.</p></div></div></div>
+<div id="sobre" class="section"><p class="section-label">Sobre a empresa</p><h2>Nossa empresa</h2>
+<div class="sobre-grid">
+  <div class="sobre-text"><p>A Capital Brasil Cosméticos atua como referência em comércio varejista de cosméticos, perfumaria e higiene pessoal em Brasília. Com dedicação ao atendimento de qualidade, oferecemos produtos selecionados que combinam eficácia, segurança e beleza para nossos clientes.</p><p>Nosso diferencial está na expertise do nosso time, na curadoria cuidadosa de marcas confiáveis e no compromisso com a satisfação de cada cliente. Buscamos ser sua parceira na jornada rumo ao autocuidado e à autoestima elevada.</p></div>
+  <div class="stats-panel">
+    <p><strong>Razão Social</strong>Capital Brasil - Comercio De Cosmeticos Ltda</p>
+    <p><strong>CNPJ</strong>66.461.311/0001-66</p>
+    <p><strong>Estado</strong>Distrito Federal</p>
+    <p><strong>Situação</strong>✅ Ativa</p>
+  </div>
+</div></div>
+<div id="contato" class="section"><p class="section-label">Fale conosco</p><h2>Fale conosco</h2>
+<div class="contato-box">
+  <p>Estamos disponíveis para apresentar nossas soluções.</p>
+  <p><strong>Telefone:</strong> <a href="tel:+556181654116">(61) 8165-4116</a></p><p><strong>Endereço:</strong> R. Qnn 4 Conjunto A Casa, 35, Ceilandia Sul, Brasilia — DF, CEP 72220-041</p>
+</div></div>
+<footer><span>Capital Brasil Cosmeticos — CNPJ 66.461.311/0001-66</span><span>© 2026–2026 Capital Brasil - Comercio De Cosmeticos Ltda</span></footer>
+</body></html>
